@@ -20,7 +20,7 @@ class BrainImageDataset:
 # Main function to classify images using CLIP
 def main():
     # Set the relative path to the images directory
-    image_dir = "paper_replication/data_murty185/data_murty185/images_185"
+    image_dir = "research-murtylab/paper_replication/data_murty185/data_murty185/images_185"
     
     # Output directory (where this script is located)
     output_dir = os.path.dirname(__file__)
