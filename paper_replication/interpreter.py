@@ -49,7 +49,7 @@ def print_and_save_sorted_output(sorted_output, output_file_path):
 # Main function
 def main():
     # Correct the relative path to the classification results file
-    input_file_path = "paper_replication/clip_classification_results.txt"
+    input_file_path = "research-murtylab/paper_replication/clip_classification_results.txt"
     output_file_path = os.path.join(os.path.dirname(__file__), "sorted_brain_regions.txt")
 
     # Step 1: Read classification results
